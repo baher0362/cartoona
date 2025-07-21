@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.navbar {
+  background-color: #232f3e;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lgo {
+  font-size: 1.5rem;
+font-weight: bold;
+}
+
+.search {
+  padding: 8px 10px;
+  width: 50%;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+.cart-btn {
+  background: orange;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e3e6e6;}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product h2 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0;
+}
+
+.buy-btn {
+  background: #ffa41c;
+  color: black;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background-color: #f08804;
+}
+
+.footer {
+  background-color: #232f3e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+}
