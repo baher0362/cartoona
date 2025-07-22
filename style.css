@@ -2,8 +2,7 @@ body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   background: linear-gradient(to right, #ffe5ec, #d8f3dc);
-  color: #111;
-}
+  color: #111;}
 
 .container {
   max-width: 1100px;
